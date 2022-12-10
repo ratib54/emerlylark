@@ -9,7 +9,7 @@ const Navbar = () => {
                 <Link className="transition ease-in-out font-semibold delay-200 hover:text-[#4ce19e] text-3xl">farhanzizz</Link>
             </div>
             <div className="flex-none">
-                <div className="flex">
+                <div className="flex justify-center items-center">
                     <a className='mx-5 header__social' href="https://github.com/FarhanZizz/">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

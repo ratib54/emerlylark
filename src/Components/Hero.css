@@ -1,0 +1,10 @@
+.custom-btn {
+    font-size: 1rem;
+    padding: 10px;
+    border-bottom: 4px solid #4ce19e;
+}
+
+.custom-btn:hover {
+    color: #4ce19e;
+    transition: color 250ms ease-in-out;
+}
