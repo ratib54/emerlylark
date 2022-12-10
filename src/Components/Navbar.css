@@ -1,0 +1,7 @@
+.header__social>svg>path {
+    transition: fill 250ms ease-in-out;
+}
+
+.header__social:hover>svg>path {
+    fill: #4ce19e;
+}
