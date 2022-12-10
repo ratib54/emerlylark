@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <div>
             <div className="divider my-20"></div>
-            <h1 className='text-7xl font-bold my-20'>Projects</h1>
+            <h1 className='text-3xl md:text-4xl lg:text-6xl font-bold my-20'>Projects</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
                 <div className="group lg:relative block lg:overflow-hidden rounded-md transition-all duration-500">
                     <div className="transition-all duration-500 lg:group-hover:scale-105 lg:group-hover:opacity-20 tobii-zoom" title="">
