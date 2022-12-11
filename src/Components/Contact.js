@@ -21,9 +21,9 @@ const Contact = () => {
                 <p className='n text-xl'>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
             </div>
             <form ref={form} onSubmit={sendEmail}>
-                <input placeholder='NAME' className='focus:bg-transparent focus:outline-0 input input-ghost border-0 border-b-2 border-b-white w-full my-5' type="text" name="user_name" required />
-                <input placeholder='EMAIL' className='focus:bg-transparent focus:outline-0 input input-ghost border-0 border-b-2 border-b-white w-full my-5' type="email" name="user_email" required />
-                <textarea name='message' className="textarea textarea-ghost focus:bg-transparent focus:outline-0 border-0 border-b-2 border-b-white w-full my-5" placeholder="MESSAGE" required></textarea>
+                <input placeholder='NAME' className='rounded-none focus:bg-transparent focus:outline-0 input input-ghost border-0 border-b-2 border-b-white w-full my-5' type="text" name="user_name" required />
+                <input placeholder='EMAIL' className='rounded-none focus:bg-transparent focus:outline-0 input input-ghost border-0 border-b-2 border-b-white w-full my-5' type="email" name="user_email" required />
+                <textarea name='message' className="rounded-none textarea textarea-ghost focus:bg-transparent focus:outline-0 border-0 border-b-2 border-b-white w-full my-5" placeholder="MESSAGE" required></textarea>
                 <div className="flex justify-center lg:justify-end">
                     <button className='custom-btn' value="Send" type="submit"> Send Message</button>
                 </div>

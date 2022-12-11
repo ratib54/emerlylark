@@ -10,7 +10,7 @@ function App() {
     }
   ])
   return (
-    <div className="container text-white px-14 py-8 mx-auto">
+    <div className="container px-4 mx-auto text-white py-8">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );

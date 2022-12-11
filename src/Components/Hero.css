@@ -4,6 +4,10 @@
     border-bottom: 4px solid #4ce19e;
 }
 
+.Typewriter__wrapper {
+    border-bottom: 4px solid #4ce19e;
+}
+
 .custom-btn:hover {
     color: #4ce19e;
     transition: color 250ms ease-in-out;
