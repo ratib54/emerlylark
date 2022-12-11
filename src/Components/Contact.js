@@ -15,10 +15,10 @@ const Contact = () => {
             });
     };
     return (
-        <section className='my-28 grid grid-cols-1 lg:grid-cols-2 gap-24'>
+        <section className='my-20 md:my-0 grid grid-cols-1 lg:grid-cols-2 gap-24'>
             <div className=''>
-                <h1 className='text-3xl md:text-4xl lg:text-6xl font-bold mb-5'>Contact</h1>
-                <p className='n text-xl'>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
+                <h1 className='text-4xl md:text-5xl  font-bold mb-5'>Contact</h1>
+                <p className='text-xl'>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
             </div>
             <form ref={form} onSubmit={sendEmail}>
                 <input placeholder='NAME' className='rounded-none focus:bg-transparent focus:outline-0 input input-ghost border-0 border-b-2 border-b-white w-full my-5' type="text" name="user_name" required />
