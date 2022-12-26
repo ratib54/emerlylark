@@ -16,7 +16,7 @@ const Contact = () => {
             });
     };
     return (
-        <section className='my-20 md:my-0 grid grid-cols-1 lg:grid-cols-2 gap-24 bg-[#242424] py-20 full-bleed'>
+        <section className='mt-20 md:my-0 grid grid-cols-1 lg:grid-cols-2 gap-24 bg-[#242424] py-20 full-bleed'>
             <div className=''>
                 <h1 className='text-4xl md:text-5xl  font-bold mb-5'>Contact</h1>
                 <p className='text-xl'>I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>

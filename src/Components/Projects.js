@@ -24,17 +24,6 @@ const Projects = () => {
                 </div>
                 <div className="group lg:relative block lg:overflow-hidden rounded-md transition-all duration-500">
                     <div className="transition-all duration-500 lg:group-hover:scale-105 lg:group-hover:opacity-20 tobii-zoom" title="">
-                        <img src={img2} alt='' />
-                    </div>
-                    <h1 className='font-semibold text-xl my-1 text-center'>Technology Education Website</h1>
-                    <div className="lg:absolute lg:group-hover:inset-0 right-2 left-2 p-4 rounded shadow flex justify-around items-center">
-                        <a target='_blank' rel="noreferrer" href="https://tech-ed-6d513.web.app/" className="custom-btn">Website</a>
-                        <Link to="/projects/2" className="custom-btn">View Details</Link>
-                        <a target='_blank' rel="noreferrer" href="https://github.com/FarhanZizz/tech-ed" className="custom-btn">Code</a>
-                    </div>
-                </div>
-                <div className="group lg:relative block lg:overflow-hidden rounded-md transition-all duration-500">
-                    <div className="transition-all duration-500 lg:group-hover:scale-105 lg:group-hover:opacity-20 tobii-zoom" title="">
                         <img src={img3} alt='' />
                     </div>
                     <h1 className='font-semibold text-xl my-1 text-center'>Photography Related Services</h1>
@@ -42,6 +31,17 @@ const Projects = () => {
                         <a target='_blank' rel="noreferrer" href="https://lens-knight.web.app/" className="custom-btn">Website</a>
                         <Link to="/projects/3" className="custom-btn">View Details</Link>
                         <a target='_blank' rel="noreferrer" href="https://github.com/FarhanZizz/lens-knight-client" className="custom-btn">Code</a>
+                    </div>
+                </div>
+                <div className="group lg:relative block lg:overflow-hidden rounded-md transition-all duration-500">
+                    <div className="transition-all duration-500 lg:group-hover:scale-105 lg:group-hover:opacity-20 tobii-zoom" title="">
+                        <img src={img2} alt='' />
+                    </div>
+                    <h1 className='font-semibold text-xl my-1 text-center'>Technology Education Website</h1>
+                    <div className="lg:absolute lg:group-hover:inset-0 right-2 left-2 p-4 rounded shadow flex justify-around items-center">
+                        <a target='_blank' rel="noreferrer" href="https://tech-ed-6d513.web.app/" className="custom-btn">Website</a>
+                        <Link to="/projects/2" className="custom-btn">View Details</Link>
+                        <a target='_blank' rel="noreferrer" href="https://github.com/FarhanZizz/tech-ed" className="custom-btn">Code</a>
                     </div>
                 </div>
             </div>
