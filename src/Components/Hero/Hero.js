@@ -2,10 +2,17 @@ import React from 'react';
 import img from '../../Assets/hero-img.png'
 import './Hero.css'
 import Typewriter from "typewriter-effect";
-
+import rings from "../../Assets/pattern-rings.svg"
 const Hero = () => {
     return (
-        <div className="hero ">
+        <div className="hero relative">
+            <img
+                className="absolute -left-56 top-28"
+                src={rings}
+                alt=""
+                width="530"
+                height="129"
+            />
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={img} className="lg:w-2/4" alt='' />
                 <div>
