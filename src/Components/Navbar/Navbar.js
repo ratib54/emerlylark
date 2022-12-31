@@ -4,9 +4,8 @@ import './Navbar.css'
 
 const Navbar = () => {
     const menuItems = <>
-        <a target={'_blank'} rel="noreferrer" className='header__social block' href="https://github.com/FarhanZizz/">
+        <a className='header__social' href="https://github.com/FarhanZizz/">
             <svg
-                className='mx-auto'
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="24"
@@ -22,9 +21,8 @@ const Navbar = () => {
                 />
             </svg>
         </a>
-        <a target={'_blank'} rel="noreferrer" className='header__social block' href="https://linkedin.com/in/farhan-zizz">
+        <a className='header__social' href="https://linkedin.com/in/farhan-zizz">
             <svg
-                className='mx-auto '
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
                 height="24"
@@ -39,8 +37,7 @@ const Navbar = () => {
                 />
             </svg>
         </a>
-        <NavLink className="custom-btn mx-auto" to='/blogs'>Blogs</NavLink>
-        <a className="custom-btn mx-auto" href="#about">About Me</a>
+        <NavLink className="custom-btn" to='/blogs'>Blogs</NavLink>
     </>
     return (
 
@@ -50,14 +47,14 @@ const Navbar = () => {
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label>
-                    <ul tabIndex={0} className="dropdown-content grid grid-flow-col-dense items-center w-80 ">
+                    <ul tabIndex={0} className="menu menu-horizontal menu-compact items-center justify-evenly dropdown-content w-52 mt-12">
                         {menuItems}
                     </ul>
                 </div>
                 <Link to="/" className="transition ease-in-out font-semibold delay-200 hover:text-[#4ce19e] text-3xl">farhanzizz</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <ul className="grid grid-cols-4 gap-x-6 items-center">
+                <ul className="grid grid-cols-3 items-center">
                     {menuItems}
                 </ul>
             </div>
