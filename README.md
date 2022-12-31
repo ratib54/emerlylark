@@ -1,4 +1,4 @@
-# Link - https://farhanzizz.netlify.app/
+# Live Site - https://farhanzizz.netlify.app/
 
 Thank you for visiting my website! This site was built using the following technologies:
 
