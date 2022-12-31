@@ -5,7 +5,7 @@ const Blogs = () => {
         <h1 className='text-4xl md:text-5xl text-center font-bold mt-40'>
             <Typewriter
                 options={{
-                    strings: ['Coming Soon...'],
+                    strings: ['Coming Soon'],
                     autoStart: true,
                     loop: true,
                 }}
