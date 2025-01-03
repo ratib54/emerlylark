@@ -6,9 +6,9 @@ const Footer = () => {
         <div className='full-bleed bg-[#242424] mb-52'>
             <hr />
             <div className="flex flex-col md:flex-row justify-between p-10 items-center">
-                <Link to="/" className="transition ease-in font-semibold delay-200 hover:text-[#4ce19e] text-4xl">farhanzizz</Link>
+                <Link to="/" className="transition ease-in font-semibold delay-200 hover:text-[#4ce19e] text-4xl">EMERYLARK</Link>
                 <div className="flex items-center mt-2">
-                    <a target={'_blank'} rel="noreferrer" className='header__social block mx-4' href="https://github.com/FarhanZizz/">
+                    <a target={'_blank'} rel="noreferrer" className='header__social block mx-4' href="#">
                         <svg
                             className='mx-auto'
                             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Footer = () => {
                             />
                         </svg>
                     </a>
-                    <a target={'_blank'} rel="noreferrer" className='header__social block mx-4' href="https://linkedin.com/in/farhan-zizz">
+                    <a target={'_blank'} rel="noreferrer" className='header__social block mx-4' href="#">
                         <svg
                             className='mx-auto '
                             xmlns="http://www.w3.org/2000/svg"

@@ -4,7 +4,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     const menuItems = <>
-        <a className='header__social' href="https://github.com/FarhanZizz/">
+        <a className='header__social' href="#">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -21,7 +21,7 @@ const Navbar = () => {
                 />
             </svg>
         </a>
-        <a className='header__social' href="https://linkedin.com/in/farhan-zizz">
+        <a className='header__social' href="#">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="25"
@@ -51,7 +51,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <Link to="/" className="transition ease-in-out font-semibold delay-200 hover:text-[#4ce19e] text-3xl">farhanzizz</Link>
+                <Link to="/" className="transition ease-in-out font-semibold delay-200 hover:text-[#4ce19e] text-3xl">EMERYLARK</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="grid grid-cols-3 items-center">

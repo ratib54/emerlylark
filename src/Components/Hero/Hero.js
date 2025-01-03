@@ -1,5 +1,5 @@
-import React from "react";
-import img from "../../Assets/DP.png";
+import React from "react"
+import img from "../../Assets/p-pro.png"
 import "./Hero.css";
 import Typewriter from "typewriter-effect";
 import rings from "../../Assets/pattern-rings.svg";
@@ -19,24 +19,24 @@ const Hero = () => {
             Nice to meet you! I'm
             <Typewriter
               options={{
-                strings: ["Farhan Aziz Mukto.", "A Front End Developer."],
+                strings: ["Emery Lark", "A Front End Developer."],
                 autoStart: true,
                 loop: true,
               }}
             />
           </h1>
           <p className="py-6 mb-8">
-            Based in Chittagong Bangladesh, I'm a MERN stack developer
+            Based in USA, I'm a MERN stack developer
             passionate about building accessible web apps that users love.
           </p>
           <a
-            href="https://drive.google.com/uc?export=download&id=1Vqm-NUKD3Rl9eu0JJ5jceaJdJ9i6xwiP"
+            href="#"
             className="custom-btn"
           >
             DOWNLOAD RESUME
           </a>
         </div>
-        <img src={img} alt="Mukto" className="order-first lg:order-last" />
+        <img src={img} alt="Emery Clark " className="order-first lg:order-last rounded-full " />
       </div>
     </div>
   );
